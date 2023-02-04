@@ -1,27 +1,21 @@
 {
-  "name": "youthlive-campstaff",
-  "version": "0.1.0",
+  "name": "express",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
     "@prisma/client": "^4.9.0",
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "eslint": "^8.33.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
     "prisma": "^4.9.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "main": "index.js",
-  "author": "Hanz Montano <montanohanz@gmail.com>",
-  "license": "MIT",
-  "prisma": {
-    "schema": "prisma/schema.prisma"
+    "pug": "^3.0.2",
+    "qrcode": "^1.5.1",
+    "wkhtmltopdf": "^0.4.0"
   }
 }
