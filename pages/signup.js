@@ -1,3 +1,4 @@
+import Hs2023Form from "../components/forms/hs2023"
 export default function Signup(props) {
-    return <div>Signup form</div>;
+    return <Hs2023Form />;
 }
