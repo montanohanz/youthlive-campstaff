@@ -13,6 +13,10 @@ export default async function hander(req, res) {
         res.status(200);
         res.send(data);
     }
+    else {
+        res.status(501);
+        res.send();
+    }
 }
 
 // sample post request body
