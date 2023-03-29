@@ -40,15 +40,16 @@ model Camper {
   allergies String?
 
   paid Boolean
-  paid_channel String
+  paid_channel String?
   paid_refno String?
-  paid_DateTime DateTime @default(now())
-  ygroup String
-  bus String
-  act_team String
+  paid_DateTime DateTime? @default(now())
+  ygroup String?
+  bus String?
+  act_team String?
   sponsor String?
   first_date DateTime @default(now())
   camps Camp[]
+  email_sent Boolean @default(false)
 }
 
 model Staff {
