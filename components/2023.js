@@ -60,6 +60,30 @@ function Fullwidth(props) {
 //     );
 // }
 
+function bgDefault(props) {
+    return (
+        <div className="">
+            <img src="">
+        </div>
+    )
+}
+
+function h1Green(props) {
+    return (
+        <div className="">
+
+        </div>
+    )
+}
+
+function h1Orange(props) {
+    return (
+        <div className="">
+
+        </div>
+    )
+}
+
 function Deets(props) {
     return (
         <div className="flex flex-row">
