@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "DM Sans";
+        src: url('fonts/dmsans/DMSans-Bold.ttf') format('truetype');
+    }
+}
