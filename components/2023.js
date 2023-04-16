@@ -8,7 +8,7 @@ import o2frame from '../public/SVG/o_frame2.svg';
 import deetsbg from '../public/SVG/deetsbg.svg';
 import cl2023 from '../public/SVG/cl2023.svg';
 import faqimg from '../public/SVG/faq.svg';
-
+import first from '../public/SVG/image-1.svg';
 function Head(props) {
     return (
     <head>
@@ -72,6 +72,12 @@ function Fullwidth(props) {
 }
 
 function Deets(props) {
+    const slides = [
+        // first.src
+        // {url: '', title: ''},
+        // {url: '', title: ''},
+        // {url: '', title: ''}
+    ]
     return (
         <div className="relative">
             <div className=''>
@@ -81,7 +87,8 @@ function Deets(props) {
                 <img className="basis-1/2 grow h-48" src={cl2023.src} />
                 <div className='basis-1/2 grow'>
                     <div className='rounded-lg bg-2023-ivory mb-2'>
-                        img slider 
+                        
+                        <img className="" src={first.src} />
                     </div>
                     <div className='rounded-lg bg-2023-ivory text-2023-bondiblue m-2 p-2'>
                         is the annual summer camp for high school! You'll be spending four days with young people
@@ -103,7 +110,7 @@ function PersonGrid(props) {
             <div className='flex columns-2xl'>
                 <div className='basis-1/2 relative'>
                     {/* <div className='absolute' style={{top: '10%', left: '2%', width: '20%'}}> */}
-                    <div className='absolute'> 
+                    <div className='absolute' style={{top: '30%', left: '2%', width: '20%'}}> 
                         <Frames type="orange1" /> 
                     </div>
                     <div className='absolute' style={{top: '15%', left: '30%', width: '20%'}}>
@@ -111,13 +118,20 @@ function PersonGrid(props) {
                     </div>
                 </div>
                 <div className='basis-1/2'>
-                    <div className='text-xl text-2023-safetyorange'>Camp Counselors</div>
+                    <div className='text-xl text-2023-safetyorange'>Camp</div>
+                    <div className='text-xl text-2023-safetyorange'>Counselors</div>
                 </div>
             </div>
-
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className='flex columns-2xl'>
                 <div className='basis-1/2'>
                     <div className='text-xl text-2023-pear'>Pastoral Team</div>
+                    <div className='text-xl text-2023-pear'>Team</div>
                 </div>
                 <div className='basis-1/2 relative'>
                     <div className='absolute' style={{bottom: '10%', right: '30%', width: '20%'}}>
@@ -140,7 +154,7 @@ function FAQ(props) {
             </div>
             <div className='flex columns-2xl inset-0'>
                 <div className='basis-1/2'>faqtext</div>
-                <img className='basis-1/2 scale-25' src={faqimg.src} />
+                <img className='basis-1/2 scale-25' style={{top: '32%', width: '20%'}} src={faqimg.src} />
             </div>
         </div>
     );
