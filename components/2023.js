@@ -210,9 +210,11 @@ function FAQ(props) {
 function CTA(props) {
     return (
         <div className="container mx-auto text-center h-52">
-            <button className="text-5xl bg-2023-moonstone text-white p-5 m-5 drop-shadow-xl rounded-lg transition duration-500 ease-in-out hover:scale-110 hover:bg-2023-bondiblue" >
-                Register Now
-            </button>
+            <a href='https://gcf-ortigas-410918.churchcenter.com/registrations/events/1727844'>
+                <button className="text-5xl bg-2023-moonstone text-white p-5 m-5 drop-shadow-xl rounded-lg transition duration-500 ease-in-out hover:scale-110 hover:bg-2023-bondiblue">
+                    Register Now
+                </button>
+            </a>
         </div>
     );
 }
