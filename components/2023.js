@@ -76,6 +76,12 @@ function Fullwidth(props) {
 }
 
 function Deets(props) {
+    const slides = [
+        // first.src
+        // {url: '', title: ''},
+        // {url: '', title: ''},
+        // {url: '', title: ''}
+    ]
     return (
         <div className="flex flex-col md:flex-row items-stretch">
             <div className='basis-1/2 bg-2023-moonstone bg-cover py-24 justify-center'>
@@ -103,7 +109,8 @@ function PersonGrid(props) {
             </div>
             <div className='flex columns-2xl'>
                 <div className='basis-1/2 relative'>
-                    <div className='absolute' style={{top: '10%', left: '2%', width: '20%'}}>
+                    {/* <div className='absolute' style={{top: '10%', left: '2%', width: '20%'}}> */}
+                    <div className='absolute' style={{top: '30%', left: '2%', width: '20%'}}> 
                         <Frames type="orange1" /> 
                     </div>
                     <div className='absolute' style={{top: '15%', left: '30%', width: '20%'}}>
@@ -111,11 +118,21 @@ function PersonGrid(props) {
                     </div>
                 </div>
                 <div className='basis-1/2'>
-                    <h1>Camp Counselors</h1>
+                    <div className='text-xl text-2023-safetyorange'>Camp</div>
+                    <div className='text-xl text-2023-safetyorange'>Counselors</div>
                 </div>
             </div>
-
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className='flex columns-2xl'>
+                <div className='basis-1/2'>
+                    <div className='text-xl text-2023-pear'>Pastoral Team</div>
+                    <div className='text-xl text-2023-pear'>Team</div>
+                </div>
                 <div className='basis-1/2 relative'>
                     <div className='absolute' style={{bottom: '10%', right: '30%', width: '20%'}}>
                         <Frames type="green1" /> 
