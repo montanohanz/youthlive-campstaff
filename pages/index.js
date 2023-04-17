@@ -12,7 +12,7 @@ export default function Home() {
       {/* <CampLIVE2023.Head /> */}
       <CampLIVE2023.Fullwidth />
       <CampLIVE2023.Deets />
-      <CampLIVE2023.PersonGrid />
+      {/* <CampLIVE2023.PersonGrid /> */}
       <CampLIVE2023.FAQ />
       <CampLIVE2023.CTA />
       <CampLIVE2023.Footer />
