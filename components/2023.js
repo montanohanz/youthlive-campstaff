@@ -20,20 +20,16 @@ function Head(props) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Camp LIVE 2023 - Greenhills Christian Fellowship</title>
         <meta name="description" content="" />
-        <link rel="stylesheet" href="./assets/styles.css"/>
 
-        {/* <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-        <meta property="og:url" content="https://youthlive.gcf.org.ph/camplive2023" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+        <meta property="og:url" content="https://camplive.gcf.org.ph" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Greenhills Christian Fellowship - CampLIVE 2023" />
-        <meta property="og:image" content="https://youthlive.gcf.org.ph/camplive2023/assets/banner-fb.jpg?v=5" />
-        <meta property="og:description" content="CampLIVE is the annual summer camp for high school students! You'll be spending four days with young people from all backgrounds while you encounter Jesus through action-packed games and activities, journey with others through Y-Groups, and have fellowship over God's message for the next generation." />
-        <meta property="twitter:card" content="summary_large_image">
-        <meta proper="twitter:site" content="@gcfyouthlive">
-        <meta name="twitter:creator" content="@gcfyouthlive">
-        <meta name="twitter:title" content="Greenhills Christian Fellowship - CampLIVE 202">
-        <meta name="twitter:description" content="CampLIVE is the annual summer camp for high schoolstudents! You'll be spending four days with young people from all backgrounds while you encounter Jesus through action-packed games and activities, journey with others through Y-Groups, and have fellowship over God's message for the next generation.">
-        <meta name="twitter:image" content="https://youthlive.gcf.org.ph/camplive2023/img/banner-fb.jpg"> */}
+        <meta property="og:image" content="url('/meta/banner-fb.jpg')" />
+        <meta property="og:description" 
+            content="CampLIVE is the annual summer camp for high school students! 
+            You'll be spending four days with young people from all backgrounds while you encounter Jesus through action-packed games and activities, 
+            journey with others through Y-Groups, and have fellowship over God's message for the next generation." />
     </head>
     );
 }
@@ -83,15 +79,15 @@ function Deets(props) {
         // {url: '', title: ''}
     ]
     return (
-        <div className="flex flex-col md:flex-row items-stretch">
-            <div className='basis-1/2 bg-2023-moonstone bg-cover py-24 justify-center'>
-                <img className="h-48" src={cl2023.src} />
+        <div className="flex flex-auto flex-col md:flex-row">
+            <div className='basis-1/2 bg-2023-moonstone bg-cover py-52'>
+                <img className="p-4 max-w-lg mx-auto" src={cl2023.src} />
             </div>
             <div className='basis-1/2 bg-2023-sbyellow py-24'>
-                <div className='rounded-lg bg-2023-ivory m-2 p-2'>
-                    <img src="/PNG/img1.png" />
+                <div className='rounded-lg bg-2023-ivory m-2 p-2 max-w-lg mx-auto'>
+                    <img className='' src="/PNG/img1.png" />
                 </div>
-                <div className='rounded-lg bg-2023-ivory text-2023-bondiblue m-2 p-2'>
+                <div className='rounded-lg bg-2023-ivory m-4 p-2 text-2023-bondiblue max-w-lg mx-auto'>
                     is the annual summer camp for high school! You'll be spending four days with young people
                     from all backgrounds while you encounter Jesus through action-packed games and activities, journey with others through
                     Y-Groups, and have fellowship over God's message for the next generation.
@@ -222,9 +218,9 @@ function CTA(props) {
 function Footer(props) {
     return (
         <footer className="flex flex-row bg-slate-800 text-right justify-end">
-            <div className="grid gap-1 grid-cols-2 grid-rows-1 text-white justify-items-end">
+            <div className="text-white justify-items-end mr-2">
                 {/* <img className="w-24" src="./assets/img/gcf-logo-white.png"/> */}
-                <div className="mr-2 align-bottom">
+                <div className="align-bottom">
                     <b>Greenhills Christian Fellowship</b>
                     <br />Ruby cor. Garnet Rds., Ortigas Center,
                     <br />Pasig City, Philippines 1605
