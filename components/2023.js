@@ -9,12 +9,11 @@ import o1frame from '../public/PNG/o_frame1.png';
 import o2frame from '../public/PNG/o_frame2.png';
 import cl2023 from '../public/PNG/cl2023.png';
 import faqimg from '../public/PNG/faq.png';
+import bannerfb from '../public/meta/banner.png';
 
 function Head(props) {
     return (
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Camp LIVE 2023 - Greenhills Christian Fellowship</title>
         <meta name="description" content="" />
 
@@ -22,7 +21,7 @@ function Head(props) {
         <meta property="og:url" content="https://camplive.gcf.org.ph" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Greenhills Christian Fellowship - CampLIVE 2023" />
-        <meta property="og:image" content="url('/meta/banner-fb.jpg')" />
+        <meta property="og:image" content={bannerfb.src} />
         <meta property="og:description" 
             content="CampLIVE is the annual summer camp for high school students! 
             You'll be spending four days with young people from all backgrounds while you encounter Jesus through action-packed games and activities, 
