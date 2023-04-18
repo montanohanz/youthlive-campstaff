@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <CampLIVE2023.Head />
+      <CampLIVE2023.Header />
       <CampLIVE2023.Fullwidth />
       <CampLIVE2023.Deets />
       {/* <CampLIVE2023.PersonGrid /> */}

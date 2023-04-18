@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Head from 'next/head'
 
 import fwLogo from '../public/PNG/fw_logo.png';
 import bgGray from '../public/PNG/defaultBg.png';
@@ -11,9 +11,9 @@ import cl2023 from '../public/PNG/cl2023.png';
 import faqimg from '../public/PNG/faq.png';
 import bannerfb from '../public/meta/banner.png';
 
-function Head(props) {
+function Header(props) {
     return (
-    <head>
+    <Head>
         <title>Camp LIVE 2023 - Greenhills Christian Fellowship</title>
         <meta name="description" content="" />
 
@@ -26,7 +26,7 @@ function Head(props) {
             content="CampLIVE is the annual summer camp for high school students! 
             You'll be spending four days with young people from all backgrounds while you encounter Jesus through action-packed games and activities, 
             journey with others through Y-Groups, and have fellowship over God's message for the next generation." />
-    </head>
+    </Head>
     );
 }
 
@@ -230,4 +230,4 @@ function Footer(props) {
     )
 }
 
-export { Head, Fullwidth, Deets, PersonGrid, FAQ, CTA, Footer };
+export { Header, Fullwidth, Deets, PersonGrid, FAQ, CTA, Footer };
