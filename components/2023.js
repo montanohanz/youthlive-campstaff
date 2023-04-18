@@ -1,17 +1,13 @@
 import Image from 'next/image'
 
-import bg2020 from '../public/SVG/fw_bg.svg';
-import word from '../public/SVG/word.svg';
-import fwLogo from '../public/SVG/fw_logo.svg';
-import bgGray from '../public/SVG/defaultBg.svg';
-import g1frame from '../public/SVG/g_frame1.svg';
-import g2frame from '../public/SVG/g_frame2.svg';
-import o1frame from '../public/SVG/o_frame1.svg';
-import o2frame from '../public/SVG/o_frame2.svg';
-import deetsbg from '../public/SVG/deetsbg.svg';
-import cl2023 from '../public/SVG/cl2023.svg';
-import faqimg from '../public/SVG/faq.svg';
-import regBtn from '../public/SVG/regbtn.svg';
+import fwLogo from '../public/PNG/fw_logo.png';
+import bgGray from '../public/PNG/defaultBg.png';
+import g1frame from '../public/PNG/g_frame1.png';
+import g2frame from '../public/PNG/g_frame2.png';
+import o1frame from '../public/PNG/o_frame1.png';
+import o2frame from '../public/PNG/o_frame2.png';
+import cl2023 from '../public/PNG/cl2023.png';
+import faqimg from '../public/PNG/faq.png';
 
 function Head(props) {
     return (
@@ -63,7 +59,7 @@ function ImgSlider(props) {
 
 function Fullwidth(props) {
     return (
-        <div className="flex text-center items-center min-h-screen bg-[url('/SVG/fw_bg.svg')] bg-2023-ivory bg-cover ">
+        <div className="flex text-center items-center min-h-screen bg-[url('/PNG/fw_bg.png')] bg-2023-ivory bg-cover ">
             {/* <img className="" src={bg2020.src} /> */}
             <img className="p-10 drop-shadow-xl scale-75 bg-2023-ivory" src={fwLogo.src} />
             {/* <div className='text-2023-bondiblue xl:text-7xl md:text-5xl text-2xl'>July 6-19</div> */}
