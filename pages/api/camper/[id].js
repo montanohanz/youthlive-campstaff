@@ -1,7 +1,7 @@
-require('dotenv').config();
+// require('dotenv').config();
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
-const transporter = nodemailer.createTransport(options[, defaults]);
+// const transporter = nodemailer.createTransport(options[, defaults]);
 
 export default async function handler(req,res) {
     const {id} = req.query

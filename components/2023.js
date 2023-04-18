@@ -84,9 +84,9 @@ function Deets(props) {
                     <img className='' src="/PNG/img1.png" />
                 </div>
                 <div className='rounded-lg bg-2023-ivory m-4 p-2 text-2023-bondiblue max-w-lg mx-auto'>
-                    is the annual summer camp for high school! You'll be spending four days with young people
+                    is the annual summer camp for high school! You&apos;ll be spending four days with young people
                     from all backgrounds while you encounter Jesus through action-packed games and activities, journey with others through
-                    Y-Groups, and have fellowship over God's message for the next generation.
+                    Y-Groups, and have fellowship over God&apos;s message for the next generation.
                 </div>
             </div>
         </div>
