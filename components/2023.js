@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+
 import fwLogo from '../public/PNG/fw_logo.png';
 import bgGray from '../public/PNG/defaultBg.png';
 import g1frame from '../public/PNG/g_frame1.png';
