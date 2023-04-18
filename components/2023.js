@@ -59,9 +59,9 @@ function ImgSlider(props) {
 
 function Fullwidth(props) {
     return (
-        <div className="flex text-center items-center min-h-screen bg-[url('/PNG/fw_bg.png')] bg-2023-ivory bg-cover ">
+        <div className="flex min-h-screen bg-[url('/PNG/fw_bg.png')] bg-2023-ivory bg-cover">
             {/* <img className="" src={bg2020.src} /> */}
-            <img className="p-10 drop-shadow-xl scale-75 bg-2023-ivory" src={fwLogo.src} />
+            <img className="p-10 drop-shadow-xl scale-75 bg-2023-ivory m-auto" src={fwLogo.src} />
             {/* <div className='text-2023-bondiblue xl:text-7xl md:text-5xl text-2xl'>July 6-19</div> */}
         </div>
     );
