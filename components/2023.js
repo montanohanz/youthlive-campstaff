@@ -13,8 +13,6 @@ import faqimg from '../public/PNG/faq.png';
 function Head(props) {
     return (
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Camp LIVE 2023 - Greenhills Christian Fellowship</title>
         <meta name="description" content="" />
 
