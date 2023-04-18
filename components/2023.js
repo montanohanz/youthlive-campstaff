@@ -77,7 +77,7 @@ function Deets(props) {
     return (
         <div className="flex flex-auto flex-col md:flex-row">
             <div className='basis-1/2 bg-2023-moonstone bg-cover py-52'>
-                <img className="p-4 max-w-lg mx-auto" src={cl2023.src} />
+                <img className="p-4 scale-75 mx-auto" src={cl2023.src} />
             </div>
             <div className='basis-1/2 bg-2023-sbyellow py-24'>
                 <div className='rounded-lg bg-2023-ivory m-2 p-2 max-w-lg mx-auto'>
