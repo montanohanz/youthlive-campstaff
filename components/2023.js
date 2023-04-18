@@ -77,7 +77,7 @@ function Deets(props) {
     return (
         <div className="flex flex-auto flex-col md:flex-row">
             <div className='basis-1/2 bg-2023-moonstone bg-cover py-52'>
-                <img className="p-4 max-w-lg mx-auto" src={cl2023.src} />
+                <img className="p-4 scale-75 mx-auto" src={cl2023.src} />
             </div>
             <div className='basis-1/2 bg-2023-sbyellow py-24'>
                 <div className='rounded-lg bg-2023-ivory m-2 p-2 max-w-lg mx-auto'>
@@ -147,7 +147,7 @@ function FAQ(props) {
             <div className='order-1 basis-1/2 p-10'>
                 <ul>
                     <li>What school level should I be in to attend Camp LIVE: WORD?
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                             Anyone incoming Grade 7 to Grade 12 can come to camp!    
                         </li></ul>
                     </li>
@@ -155,7 +155,7 @@ function FAQ(props) {
                 <br />
                 <ul>
                     <li>Where can I sign-up for Camp LIVE: WORD?
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                         You can sign up any time online through our Registration Page or visit our booth at Greenhills Christian Fellowship Ortigas on Weekends. <br />
                         We’re present on Saturdays at the Audi A, after Youth LIVE Stream, and Sundays at the Lobby during and after our Sunday Services
                         </li></ul>
@@ -164,7 +164,7 @@ function FAQ(props) {
                 <br />
                 <ul>
                     <li>What happens after I sign-up?
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                         You will receive an email from us confirming your registration with important steps to secure your slot for camp.    
                         </li></ul>
                     </li>
@@ -172,7 +172,7 @@ function FAQ(props) {
                 <br />
                 <ul>
                     <li>How do I pay for the camp fee? What are the payment options available?
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                         Included in the confirmation email are the different payment details available and the next steps to confirm your payment with us. 
                         We accept GCash, Maya, Bank transfer.  
                         </li></ul>
@@ -181,7 +181,7 @@ function FAQ(props) {
                 <br />
                 <ul>
                     <li>How do I stay updated regarding camp-related reminders? (e.g. Important Dates, Things to Bring, Rules, Tips)
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                         Keep an eye out on our Youth LIVE Facebook Page for Camp Live: WORD updates!    
                         </li></ul>
                     </li>
@@ -189,7 +189,7 @@ function FAQ(props) {
                 <br />
                 <ul>
                     <li>Got any more questions?
-                        <ul><li>
+                        <ul><li className='text-2023-bondiblue'>
                         You can contact us via email at youthlive@gcf.org.ph or approach any Camp LIVE Representative at our booth.   
                         </li></ul>
                     </li>
